@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family:pbold ;
+    src: url("./assets/fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family:pmedium ;
+    src: url("./assets/fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family:plight ;
+    src: url("./assets/fonts/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family:pregular ;
+    src: url("./assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family:psemibold ;
+    src: url("./assets/fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family:pextrabold ;
+    src: url("./assets/fonts/Poppins-ExtraBold.ttf");
+}
+
+
+@font-face {
+    font-family:ptext ;
+    src: url("./assets/fonts/Text-Regular.ttf");
+}
+
+@font-face {
+    font-family:ptextbold ;
+    src: url("./assets/fonts/Text-Bold.ttf");
+}
+
+@font-face {
+    font-family:ptextlight ;
+    src: url("./assets/fonts/Text-Light.ttf");
+}
+
+@font-face {
+    font-family:ptextmedium ;
+    src: url("./assets/fonts/Text-Medium.ttf");
+}
+
+@font-face {
+    font-family:ptextsemibold ;
+    src: url("./assets/fonts/Text-SemiBold.ttf");
+}
+
+@font-face {
+    font-family:ptextextrabold ;
+    src: url("./assets/fonts/Text-ExtraBold.ttf");
+}
+
+  @keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+body{
+    font-family: pmedium;
+    background: linear-gradient(45deg, #000, #111);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+
+}
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+.line{
+    position: relative;
+    padding-bottom: 12px;
+}
+.line::before{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 1.5px;
+    background-color: #ffffff;
+    bottom: 0;
+    left: 0;
+}
+
+:root{
+    --primary: #00e5f6;
+    --secondary: #FFA800;
+    --tertiary: #FFD700;
+    --quaternary: #FFD700;
+    --quinary: #FFD700;
+    --senary: #FFD700;
+    --septenary: #FFD700;
+    --octonary: #FFD700;
+    --nonary: #FFD700;
+    --denary: #FFD700;
+    --black: #000000;
+    --white: #ffffff;
+    --gray: #F5F5F5;
+    --lightgray: #F5F5F5;
+    --darkgray: #F5F5F5;
+    --light: #F5F5F5;
+    --dark: #F5F5F5;
+    --lighter: #F5F5F5;
+    --darker: #F5F5F5;
+    --lightest: #F5F5F5;
+    --darkest: #F5F5F5;
+    --success: #F5F5F5;
+    --info: #F5F5F5;
+    --warning: #F5F5F5;
+    --danger: #F5F5F5;
+    --lightblue: #F5F5F5;
+    --lightgreen: #F5F5F5;
+    --lightyellow: #F5F5F5;
+    --lightred: #F5F5F5;
+    --lightpurple: #F5F5F5;
+    --lightorange: #F5F5F5;
+    --lightcyan: #F5F5F5;
+    --lightmagenta: #F5F5F5;
+    --lightlime: #F5F5F5;
+    --lightpink: #F5F5F5;
+    --lightteal: #F5F5F5;
+    --lightlavender: #F5F5F5;
+    --lightbrown: #F5F5F5;
+    --lightbeige: #F5F5F5;
+    --lightmaroon: #F5F5F5;
+    --lightmint: #F5F5F5;
+    --lightolive:#F5F5F5;
+    --lightapricot: #F5F5F5;    
+}
+
+
