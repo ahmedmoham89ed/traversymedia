@@ -144,6 +144,7 @@ const Categories = () => {
                                         name="simple-controlled"
                                         value={value}
                                         onChange={(event, newValue) => {
+                                            console.log(event);
                                         setValue(newValue);
                                         }}
                                 />

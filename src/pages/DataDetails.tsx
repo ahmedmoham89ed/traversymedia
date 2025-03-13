@@ -1,4 +1,4 @@
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import next from "../assets/images/nextjs.jpg";
 import js from "../assets/images/js.webp";
 import laravel from "../assets/images/laravel.webp";
